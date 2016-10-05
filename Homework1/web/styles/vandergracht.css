@@ -1,0 +1,85 @@
+/* Jourdan Parham and Sabrina van der Gracht Copyright 2016 */
+html {
+  font-family: sans-serif;
+}
+
+body {
+  margin: 10%;
+}
+
+h1 {
+  font-size: 1.5em;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+header p {
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.2em;
+  margin-bottom: 0;
+  text-decoration: underline;
+}
+
+main p {
+  margin-bottom: 0;
+}
+
+p {
+  margin-top: 0;
+}
+
+span.large + p {
+  font-style: italic;
+  font-weight: bold;
+}
+
+span {
+  font-weight: bold;
+}
+
+.large {
+  float: right;
+  font-weight: normal;
+}
+
+.small {
+  display: none;
+}
+
+main ul {
+  margin-top: 0;
+}
+
+.tech ul {
+  margin-bottom: 0;
+}
+
+.major {
+  font-style: italic;
+}
+
+.position {
+  font-style: italic;
+  font-weight: bold;
+}
+
+.future {
+  color: red;
+}
+
+.future h2 {
+  color: black;
+}
+
+@media (max-width: 500px) {
+  .large {
+    display: none;
+  }
+  
+  .small {
+    display: block;
+  }
+}
